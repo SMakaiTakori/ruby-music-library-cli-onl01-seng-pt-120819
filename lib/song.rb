@@ -67,6 +67,11 @@ class Song
     self.new_from_filename(filename).save
   end
   
+<<<<<<< HEAD
+=======
+  
+  
+>>>>>>> fb10e0389e4746820bf1214c0b8cace03af97f57
 end
 
 

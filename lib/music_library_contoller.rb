@@ -8,15 +8,22 @@ class MusicLibraryController
   end
 
   def call
+<<<<<<< HEAD
     input = gets.strip
     
     if input != exit
+=======
+  #   input = gets.strip
+    
+    # if input != exit
+>>>>>>> fb10e0389e4746820bf1214c0b8cace03af97f57
    
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
     puts "To list all of the artists in your library, enter 'list artists'."
     puts "To list all of the genres in your library, enter 'list genres'."
     puts "To list all of the songs by a particular artist, enter 'list artist'."
+<<<<<<< HEAD
     puts "To list all of the songs of a particular genre, enter 'list genre'."
     puts "To play a song, enter 'play song'."
     puts "To quit, type 'exit'."
@@ -87,6 +94,10 @@ class MusicLibraryController
       song = array[input-1]
       puts "Playing #{song.name} by #{song.artist.name}"
     end
+=======
+    
+    
+>>>>>>> fb10e0389e4746820bf1214c0b8cace03af97f57
   end
 
 end
